@@ -1,5 +1,3 @@
-# Library-borrowing-system
-
 # Library Book Borrowing System
 
 A complete full-stack web application designed for a campus library to manage its book inventory and borrowing records. This project was developed to demonstrate end-to-end web application development, featuring a Spring Boot REST API and a modern React JS frontend.
