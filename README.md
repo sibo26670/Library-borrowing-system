@@ -56,7 +56,8 @@ The database (`library_db`) and its tables will automatically generate when the 
 1. Ensure your MySQL service is active.
 2. Open your terminal and navigate to the backend directory:
    ```
-   cd library-backend ```
+   cd library-backend
+   ```
 3. Build and run the application using the included Maven wrapper:
    ```
    .\mvnw clean install
@@ -67,7 +68,8 @@ The database (`library_db`) and its tables will automatically generate when the 
 
 1. Open a new terminal and navigate to the frontend directory:
    ```
-   cd library-frontend ```
+   cd library-frontend
+   ```
 2. (Windows Users only) If you encounter a script execution error in PowerShell, temporarily bypass the execution policy or use Command Prompt::
    ```
    Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned ```
@@ -82,25 +84,26 @@ The database (`library_db`) and its tables will automatically generate when the 
 ## API Testing (Postman)
 ### 1. GET All Books Request
 
-[Insert Screenshot Here]
+![Alt Text](https://github.com/sibo26670/Library-borrowing-system/blob/main/Screenshot/GET%20All%20Books.png)
 
 ### 2. POST Add New Book Request
 
-[Insert Screenshot Here]
+![Alt Text](https://github.com/sibo26670/Library-borrowing-system/blob/main/Screenshot/POST%20Add%20a%20New%20Book.png)
 
 ### 3. POST Create Borrow Record & DELETE Return Request
 
-[Insert Screenshot Here]
+![Alt Text](https://github.com/sibo26670/Library-borrowing-system/blob/main/Screenshot/POST%20Create%20a%20Borrow%20Record.png)
+![Alt Text](https://github.com/sibo26670/Library-borrowing-system/blob/main/Screenshot/DELETE%20Return%20a%20Book.png)
 
 ## User Interface (React)
 ### 1. Books Page (Inventory & Add Book Form)
 
-[Insert Screenshot Here]
+![Alt Text](https://github.com/sibo26670/Library-borrowing-system/blob/main/Screenshot/Manage%20Books.png)
 
 ### 2. Borrow Page (Dynamic Availability Dropdown)
 
-[Insert Screenshot Here]
+![Alt Text](https://github.com/sibo26670/Library-borrowing-system/blob/main/Screenshot/Borrow%20a%20Book.png)
 
 ### 3. Borrow Records List (Active Loans)
 
-[Insert Screenshot Here]
+![Alt Text](https://github.com/sibo26670/Library-borrowing-system/blob/main/Screenshot/Borrow%20Records.png)
